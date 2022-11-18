@@ -32,6 +32,22 @@ h6 {
   font-family: "Jost", sans-serif;
 }
 
+.about {
+  background-image: url("../img/contactenos.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #37517E;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+.about img {
+  padding: 0;
+  width: 100%;
+  height: auto;
+  opacity: 0.7;
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
