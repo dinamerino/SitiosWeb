@@ -30,6 +30,19 @@ h6 {
 
 }
 
+.box2 li{
+  list-style: none;
+  text-align: left;
+}
+
+.bx{
+  color: #3d4d6a !important;
+}
+.card-header {
+  color: #52b6e6 !important;
+  font-weight: 600 !important;
+}
+
 /*--------------------------------------------------------------
 # contact class
 --------------------------------------------------------------*/
