@@ -426,13 +426,22 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+/* #hero {
+  width: 100%;
+  height: 80vh;
+  background: #222e49;
+} */
+
 #hero {
   width: 100%;
   height: 80vh;
-  /*background: #37517e; de la plantilla */
-  background: #222e49;
+  /* background: #082a41; */
+  background: #1f96f2 !important;
+  background: -moz-linear-gradient(45deg, #1f96f2 0%, #9d1cb3 100%) !important;
+  background: -webkit-linear-gradient(45deg, #1f96f2 0%,#082a41 100%) !important;
+  background: linear-gradient(45deg, #1f96f2 0%,#082a41 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f96f2', endColorstr='#082a41',GradientType=1 ) !important;
 }
-
 /* .portfolio-item img{
   height:416px !important;
 } */
