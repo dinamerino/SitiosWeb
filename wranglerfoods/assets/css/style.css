@@ -30,6 +30,12 @@ h6 {
 
 }
 
+.portfolio-container img{
+  height: 226px !important;
+}
+.portfolio-container .btn{
+ margin-top: 10px;
+}
 .box2 li{
   list-style: none;
   text-align: left;
