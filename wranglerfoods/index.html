@@ -8,6 +8,7 @@
   <title>Wrangler Food LLC</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
+  <script src="assets/js/jquery.js"></script>
 
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -331,7 +332,9 @@
                      <img src="assets/img/products/supermarket.jpg" class="img-fluid" alt="">
                    </div>
                  </div>
-                 <a href="#" class="btn btn-primary">Ver Productos</a>
+                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#abarrotesModal">
+                   Ver Productos
+                 </button>
                </div>
              </div>
            </div>
@@ -346,13 +349,19 @@
                      <img src="assets/img/products/queso.jpg" class="img-fluid" alt="">
                    </div>
                  </div>
-                 <a href="#" class="btn btn-primary">Ver Products</a>
+                 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#regrigeradosModal">
+                   Ver Productos
+                 </button>
                </div>
              </div>
            </div>
          </div>
 
       </div>
+
+      <div class="load-html" id="modalForCongelados" data-source="modalForCongelados.html"></div>
+      <div class="load-html" id="modalForAbarrotes" data-source="modalForAbarrotes.html"></div>
+      <div class="load-html" id="modalForRefrigerados" data-source="modalForRefrigerados.html"></div>
 
      </section><!-- End Portfolio Section -->
 
@@ -633,79 +642,6 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
-<!--  <include src="./modals.html"></include>-->
-  <!-- Modal -->
-  <div class="modal fade" id="congeladosModal" tabindex="-1" aria-labelledby="congeladosModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Productos Congelados</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <!--                Maiz -->
-          <div class="col-lg-12 col-md-12 portfolio-item filter-app text-center">
-            <div class="card">
-              <div class="card-header">
-                Productos de Maíz
-              </div>
-              <div class="card-body">
-                <div class="row">
-                  <div class="col-6">
-                    <img src="assets/img/portfolio/elote2.png" class="img-fluid" alt="elote">
-                  </div>
-                  <div class="col-6 box2 text-left">
-                    <ul>
-                      <li><i class="bx2 bx bxs-label"></i> Riguas tradicionales</li>
-                      <li><i class="bx2 bx bxs-label"></i> Riguas con queso</li>
-                      <li><i class="bx2 bx bxs-label"></i> Riguas con frijol</li>
-                      <li><i class="bx2 bx bxs-label"></i> Riguas con queso y loroco</li>
-                      <li><i class="bx2 bx bxs-label"></i> Tamal tradicional</li>
-                      <li><i class="bx2 bx bxs-label"></i> Tamal de elote duce</li>
-                      <li><i class="bx2 bx bxs-label"></i> Tamal comaleado</li>
-                      <li><i class="bx2 bx bxs-label"></i> Tamal humita</li>
-                      <li><i class="bx2 bx bxs-label"></i> Atol de elote</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-12 col-md-12 portfolio-item filter-app text-center">
-            <div class="card">
-              <div class="card-header">
-                Productos de Maíz
-              </div>
-              <div class="card-body">
-                <div class="row">
-                  <div class="col-6">
-                    <img src="assets/img/portfolio/elote2.png" class="img-fluid" alt="elote">
-                  </div>
-                  <div class="col-6 box2 text-left">
-                    <ul>
-                      <li><i class="bx2 bx bxs-label"></i> Riguas tradicionales</li>
-                      <li><i class="bx2 bx bxs-label"></i> Riguas con queso</li>
-                      <li><i class="bx2 bx bxs-label"></i> Riguas con frijol</li>
-                      <li><i class="bx2 bx bxs-label"></i> Riguas con queso y loroco</li>
-                      <li><i class="bx2 bx bxs-label"></i> Tamal tradicional</li>
-                      <li><i class="bx2 bx bxs-label"></i> Tamal de elote duce</li>
-                      <li><i class="bx2 bx bxs-label"></i> Tamal comaleado</li>
-                      <li><i class="bx2 bx bxs-label"></i> Tamal humita</li>
-                      <li><i class="bx2 bx bxs-label"></i> Atol de elote</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
 
 
 </body>
