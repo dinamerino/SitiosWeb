@@ -44,6 +44,9 @@ h6 {
   list-style: none;
   text-align: left;
 }
+.modal .card{
+  height: 325px !important;
+}
 
 .bx{
   color: #3d4d6a !important;
