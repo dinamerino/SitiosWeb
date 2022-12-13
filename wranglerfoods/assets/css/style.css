@@ -33,6 +33,9 @@ h6 {
   font-family: "fantasy", sans-serif;
 
 }
+ .modal img{
+  height: 180px !important;
+ }
 
 .portfolio-container img{
   height: 280px !important;
@@ -46,6 +49,11 @@ h6 {
 }
 .modal .card{
   height: 325px !important;
+
+}
+.modal .card-body{
+
+    overflow-y: scroll !important;
 }
 
 .bx{
@@ -847,6 +855,12 @@ section {
     padding-left: 0;
     padding-right: 0;
   }
+}
+@media (max-width: 1180px) {
+
+  .modal img{
+    height: 120px !important;
+   }
 }
 
 @media (max-width: 992px) {
@@ -1708,6 +1722,9 @@ section {
   .breadcrumbs {
     margin-top: 68px;
   }
+  .modal img{
+    height: 100px !important;
+   }
 }
 
 .breadcrumbs h2 {
